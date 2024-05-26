@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        button{
+            
+        }
+    </style>
+</head>
+<!-- <body> -->
+    
+<body>  
+    <div class="container">
+        <h1>Calculator Project</h1>
+        <form action="forms">
+            <div class="calc">
+                <input type="text" id="answer" name="screen"><br><br>
+                <input type="button" value="7" onclick="form.screen.value+='7'">
+                <input type="button" value="8" onclick="form.screen.value+='8'">
+                <input type="button" value="9" onclick="form.screen.value+='9'">
+                <input type="button" value="0" onclick="form.screen.value+='0'">
+                <input type="button" value="1" onclick="form.screen.value+='1'">
+                <input type="button" value="." onclick="form.screen.value+='.'">
+                <input type="button" value="C" onclick="form.screen.value=''">
+                <input type="button" value="+" onclick="form.screen.value+='+'">
+                <input type="button" value="*" onclick="form.screen.value+='*'">
+                <input type="button" value="%" onclick="form.screen.value=((form.screen.value)/100)+'%'">
+                <input type="button" value="=" onclick="form.screen.value=eval(form.screen.value)">
+                <br>
+            </div>
+        </form>
+    </div>
+    <!-- html semanttic -->
+    
+</body>
+</html>

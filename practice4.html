@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice 4</title>
+    <style>
+        body{
+            font-family: inherit;
+            font-size: 100%;
+        }
+        form{
+            background-color: black;
+            color: aliceblue;
+            box-sizing: border-box;
+            margin: .5em;
+            padding: 10% 10% 25%;
+            border-radius: 2em;
+        }
+        legend{
+            color: brown;
+            font-size: 24px;
+        }
+
+
+
+    </style>
 </head>
 <body>
     
+    <form action="login" method="post">
+    <fieldset>
+        <legend id="lform">Login Form</legend>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" placeholder="First Name"><br><br>
+        <label for="name">Surname:</label>
+        <input type="text" id="surname" placeholder="Surname"><br><br>
+        <label for="gender">Gender</label><br>
+        <label for="male">Male</label><input type="radio" id="male" name="gender" value="Male" >
+        <label for="female">Female</label><input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><input type="radio" name="gender" value="Female">
+        <br><br><label for="fav_food">Favorite Food</label><br>
+        <input type="checkbox" name="Rice and Stew"> Rice and Stew <br>
+        <input type="checkbox" name="Curry Rice"> Curry Rice <br>
+        <input type="checkbox" name="coconut rice"> Coconut Rice <br>
+        <input type="checkbox" name="masa"> Masa <br>    
+        <input type="file"> 
+    </fieldset>
+    </form>
 </body>
 </html>
